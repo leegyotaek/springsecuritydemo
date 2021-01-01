@@ -10,4 +10,16 @@ public class HomeController {
     public String home(){
         return "home";
     }
+
+    @GetMapping("/usersettings")
+    public String showUserSettings(){
+
+        return "usersettings";
+    }
+
+    @GetMapping("/systemsettings")
+    public String showSystemSettings(){
+
+        return "systemsettings";
+    }
 }
